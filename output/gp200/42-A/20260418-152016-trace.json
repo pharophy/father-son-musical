@@ -1,0 +1,276 @@
+﻿[
+    {
+        "timestamp":  "2026-04-18T15:20:16.4794756-07:00",
+        "step":  "start",
+        "status":  "ok",
+        "data":  {
+                     "patch":  "42-A",
+                     "allowMutation":  false
+                 }
+    },
+    {
+        "timestamp":  "2026-04-18T15:20:16.6043763-07:00",
+        "step":  "session",
+        "status":  "ok",
+        "data":  {
+                     "automationSurface":  {
+                                               "uiAutomationAvailable":  true,
+                                               "uiAutomationError":  null,
+                                               "imageFallbackAvailable":  true,
+                                               "recommendation":  "hybrid-uia-with-image-fallback"
+                                           },
+                     "launched":  false,
+                     "exePath":  "C:\\Program Files\\Valeton\\GP-200\\GP-200.exe",
+                     "window":  {
+                                    "processName":  "GP-200",
+                                    "id":  20784,
+                                    "mainWindowTitle":  "V1.8.0",
+                                    "mainWindowHandle":  "0x4051A",
+                                    "path":  "C:\\Program Files\\Valeton\\GP-200\\GP-200.exe",
+                                    "startTime":  "2026-04-18T14:33:08.2594155-07:00",
+                                    "responding":  true
+                                }
+                 }
+    },
+    {
+        "timestamp":  "2026-04-18T15:20:16.6043763-07:00",
+        "step":  "target-patch",
+        "status":  "needs-manual-confirmation",
+        "data":  {
+                     "patch":  "42-A",
+                     "patchSeenInUiText":  false,
+                     "knownView":  {
+                                       "known":  false,
+                                       "titleLooksValid":  true,
+                                       "patchEditingSignals":  false,
+                                       "uiTextCount":  1
+                                   }
+                 }
+    },
+    {
+        "timestamp":  "2026-04-18T15:20:16.6326129-07:00",
+        "step":  "recipe",
+        "status":  "planned",
+        "data":  {
+                     "execution":  {
+                                       "status":  "dry-run",
+                                       "operations":  [
+                                                          {
+                                                              "type":  "select-module",
+                                                              "module":  "PRE",
+                                                              "enabled":  true
+                                                          },
+                                                          {
+                                                              "type":  "select-model",
+                                                              "module":  "PRE",
+                                                              "model":  "Micro Boost"
+                                                          },
+                                                          {
+                                                              "type":  "write-parameters",
+                                                              "module":  "PRE",
+                                                              "targets":  {
+                                                                              "level":  58,
+                                                                              "gain":  18
+                                                                          }
+                                                          },
+                                                          {
+                                                              "type":  "select-module",
+                                                              "module":  "AMP",
+                                                              "enabled":  true
+                                                          },
+                                                          {
+                                                              "type":  "select-model",
+                                                              "module":  "AMP",
+                                                              "model":  "edge-combo"
+                                                          },
+                                                          {
+                                                              "type":  "write-parameters",
+                                                              "module":  "AMP",
+                                                              "targets":  {
+                                                                              "bass":  48,
+                                                                              "treble":  50,
+                                                                              "presence":  45,
+                                                                              "mid":  55,
+                                                                              "gain":  38
+                                                                          }
+                                                          },
+                                                          {
+                                                              "type":  "select-module",
+                                                              "module":  "CAB",
+                                                              "enabled":  true
+                                                          },
+                                                          {
+                                                              "type":  "select-model",
+                                                              "module":  "CAB",
+                                                              "model":  "matched-open-back"
+                                                          },
+                                                          {
+                                                              "type":  "write-parameters",
+                                                              "module":  "CAB",
+                                                              "targets":  {
+                                                                              "lowCut":  80,
+                                                                              "highCut":  6200
+                                                                          }
+                                                          },
+                                                          {
+                                                              "type":  "select-module",
+                                                              "module":  "EQ",
+                                                              "enabled":  true
+                                                          },
+                                                          {
+                                                              "type":  "select-model",
+                                                              "module":  "EQ",
+                                                              "model":  "Guitar EQ"
+                                                          },
+                                                          {
+                                                              "type":  "write-parameters",
+                                                              "module":  "EQ",
+                                                              "targets":  {
+                                                                              "highCut":  6500,
+                                                                              "lowCut":  80,
+                                                                              "mid":  1
+                                                                          }
+                                                          },
+                                                          {
+                                                              "type":  "select-module",
+                                                              "module":  "DLY",
+                                                              "enabled":  true
+                                                          },
+                                                          {
+                                                              "type":  "select-model",
+                                                              "module":  "DLY",
+                                                              "model":  "BB Delay"
+                                                          },
+                                                          {
+                                                              "type":  "write-parameters",
+                                                              "module":  "DLY",
+                                                              "targets":  {
+                                                                              "feedback":  22,
+                                                                              "mix":  14
+                                                                          }
+                                                          },
+                                                          {
+                                                              "type":  "select-module",
+                                                              "module":  "RVB",
+                                                              "enabled":  true
+                                                          },
+                                                          {
+                                                              "type":  "select-model",
+                                                              "module":  "RVB",
+                                                              "model":  "Room"
+                                                          },
+                                                          {
+                                                              "type":  "write-parameters",
+                                                              "module":  "RVB",
+                                                              "targets":  {
+                                                                              "decay":  28,
+                                                                              "mix":  16
+                                                                          }
+                                                          }
+                                                      ],
+                                       "reason":  "Mutation was not requested."
+                                   },
+                     "recipe":  {
+                                    "schema":  "gp200.patchRecipe.v1",
+                                    "createdAt":  "2026-04-18T15:20:16.5948645-07:00",
+                                    "patch":  "42-A",
+                                    "bank":  42,
+                                    "slot":  "A",
+                                    "style":  "edge-of-breakup",
+                                    "routing":  "headphones",
+                                    "intendedUse":  "general performance",
+                                    "savePolicy":  "manual-confirm",
+                                    "noCab":  false,
+                                    "signalChain":  [
+                                                        "PRE",
+                                                        "WAH",
+                                                        "DST",
+                                                        "AMP",
+                                                        "NR",
+                                                        "CAB",
+                                                        "EQ",
+                                                        "MOD",
+                                                        "DLY",
+                                                        "RVB",
+                                                        "VOL"
+                                                    ],
+                                    "template":  "Edge Of Breakup",
+                                    "modules":  [
+                                                    {
+                                                        "module":  "PRE",
+                                                        "targets":  {
+                                                                        "level":  58,
+                                                                        "gain":  18
+                                                                    },
+                                                        "model":  "Micro Boost",
+                                                        "enabled":  true
+                                                    },
+                                                    {
+                                                        "module":  "AMP",
+                                                        "targets":  {
+                                                                        "bass":  48,
+                                                                        "treble":  50,
+                                                                        "presence":  45,
+                                                                        "mid":  55,
+                                                                        "gain":  38
+                                                                    },
+                                                        "model":  "edge-combo",
+                                                        "enabled":  true
+                                                    },
+                                                    {
+                                                        "module":  "CAB",
+                                                        "targets":  {
+                                                                        "lowCut":  80,
+                                                                        "highCut":  6200
+                                                                    },
+                                                        "model":  "matched-open-back",
+                                                        "enabled":  true
+                                                    },
+                                                    {
+                                                        "module":  "EQ",
+                                                        "targets":  {
+                                                                        "highCut":  6500,
+                                                                        "lowCut":  80,
+                                                                        "mid":  1
+                                                                    },
+                                                        "model":  "Guitar EQ",
+                                                        "enabled":  true
+                                                    },
+                                                    {
+                                                        "module":  "DLY",
+                                                        "targets":  {
+                                                                        "feedback":  22,
+                                                                        "mix":  14
+                                                                    },
+                                                        "model":  "BB Delay",
+                                                        "enabled":  true
+                                                    },
+                                                    {
+                                                        "module":  "RVB",
+                                                        "targets":  {
+                                                                        "decay":  28,
+                                                                        "mix":  16
+                                                                    },
+                                                        "model":  "Room",
+                                                        "enabled":  true
+                                                    }
+                                                ],
+                                    "validation":  [
+                                                       "editor-running",
+                                                       "window-foregrounded",
+                                                       "known-patch-edit-view",
+                                                       "target-patch-confirmed",
+                                                       "unsaved-change-policy-satisfied"
+                                                   ]
+                                }
+                 }
+    },
+    {
+        "timestamp":  "2026-04-18T15:20:16.6336141-07:00",
+        "step":  "mutation",
+        "status":  "skipped",
+        "data":  {
+                     "reason":  "AllowMutation was not supplied; patch takeover is foreground/plan only."
+                 }
+    }
+]

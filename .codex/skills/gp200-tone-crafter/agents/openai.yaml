@@ -1,0 +1,3 @@
+display_name: GP-200 Tone Crafter
+short_description: Generate importable Valeton GP-200 tones from sound descriptions.
+default_prompt: "Create a GP-200 patch from this tone request:"

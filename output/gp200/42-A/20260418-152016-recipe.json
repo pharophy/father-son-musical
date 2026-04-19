@@ -1,0 +1,93 @@
+﻿{
+    "schema":  "gp200.patchRecipe.v1",
+    "createdAt":  "2026-04-18T15:20:16.5948645-07:00",
+    "patch":  "42-A",
+    "bank":  42,
+    "slot":  "A",
+    "style":  "edge-of-breakup",
+    "routing":  "headphones",
+    "intendedUse":  "general performance",
+    "savePolicy":  "manual-confirm",
+    "noCab":  false,
+    "signalChain":  [
+                        "PRE",
+                        "WAH",
+                        "DST",
+                        "AMP",
+                        "NR",
+                        "CAB",
+                        "EQ",
+                        "MOD",
+                        "DLY",
+                        "RVB",
+                        "VOL"
+                    ],
+    "template":  "Edge Of Breakup",
+    "modules":  [
+                    {
+                        "module":  "PRE",
+                        "targets":  {
+                                        "level":  58,
+                                        "gain":  18
+                                    },
+                        "model":  "Micro Boost",
+                        "enabled":  true
+                    },
+                    {
+                        "module":  "AMP",
+                        "targets":  {
+                                        "bass":  48,
+                                        "treble":  50,
+                                        "presence":  45,
+                                        "mid":  55,
+                                        "gain":  38
+                                    },
+                        "model":  "edge-combo",
+                        "enabled":  true
+                    },
+                    {
+                        "module":  "CAB",
+                        "targets":  {
+                                        "lowCut":  80,
+                                        "highCut":  6200
+                                    },
+                        "model":  "matched-open-back",
+                        "enabled":  true
+                    },
+                    {
+                        "module":  "EQ",
+                        "targets":  {
+                                        "highCut":  6500,
+                                        "lowCut":  80,
+                                        "mid":  1
+                                    },
+                        "model":  "Guitar EQ",
+                        "enabled":  true
+                    },
+                    {
+                        "module":  "DLY",
+                        "targets":  {
+                                        "feedback":  22,
+                                        "mix":  14
+                                    },
+                        "model":  "BB Delay",
+                        "enabled":  true
+                    },
+                    {
+                        "module":  "RVB",
+                        "targets":  {
+                                        "decay":  28,
+                                        "mix":  16
+                                    },
+                        "model":  "Room",
+                        "enabled":  true
+                    }
+                ],
+    "validation":  [
+                       "editor-running",
+                       "window-foregrounded",
+                       "known-patch-edit-view",
+                       "target-patch-confirmed",
+                       "unsaved-change-policy-satisfied"
+                   ]
+}

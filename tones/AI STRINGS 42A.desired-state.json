@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "name": "AI STRINGS 42A",
+  "description": "Bow-like guitar string pad with slow attack, octave layering, ensemble spread, tape delay, and shimmer reverb.",
+  "source": {
+    "prst": "tones/42-A It's GP-200.example.prst",
+    "expectedSha256": "F4FFF4C28B0103B91873BD895360CCC444A8A10BBDCBE86E47F1F29D6C7C4F5B"
+  },
+  "output": {
+    "prst": "tones/AI STRINGS 42A.prst",
+    "trace": "tones/AI STRINGS 42A.trace.json",
+    "summary": "tones/AI STRINGS 42A.summary.md"
+  },
+  "routing": "headphones",
+  "savePolicy": "named-variant",
+  "tags": ["ambient", "strings", "pad"],
+  "modules": {
+    "PRE": {
+      "active": true,
+      "algorithm": "Pitch",
+      "parameters": {
+        "Hi Pitch": 12,
+        "Low Pitch": -12,
+        "Dry": 35,
+        "Hi Vol": 42,
+        "Low Vol": 28
+      }
+    },
+    "WAH": {
+      "active": false,
+      "algorithm": "V-Wah",
+      "parameters": {}
+    },
+    "DST": {
+      "active": false,
+      "algorithm": "Green OD",
+      "parameters": {}
+    },
+    "AMP": {
+      "active": true,
+      "algorithm": "Silver Twin",
+      "parameters": {
+        "Gain": 18,
+        "Volume": 48,
+        "Bass": 45,
+        "Middle": 58,
+        "Treble": 32
+      }
+    },
+    "NR": {
+      "active": true,
+      "algorithm": "Auto Swell",
+      "parameters": {
+        "Attack": 1350,
+        "Curve": 1
+      }
+    },
+    "CAB": {
+      "active": true,
+      "algorithm": "DARK LUX",
+      "parameters": {
+        "Volume": 50,
+        "Low Cut": 120,
+        "High Cut": 5200
+      }
+    },
+    "EQ": {
+      "active": true,
+      "algorithm": "Guitar EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 1,
+        "800Hz": 2,
+        "1.6kHz": 1,
+        "4kHz": -4,
+        "Volume": 50
+      }
+    },
+    "MOD": {
+      "active": true,
+      "algorithm": "Detune",
+      "parameters": {
+        "Detune": -9,
+        "Wet": 45,
+        "Dry": 65
+      }
+    },
+    "DLY": {
+      "active": true,
+      "algorithm": "Tape Delay S",
+      "parameters": {
+        "Mix": 18,
+        "Time": 720,
+        "Feedback": 28,
+        "Time R%": 61.8,
+        "Spread": 100,
+        "Wow &": 25,
+        "Age": 1,
+        "Scrape": 20,
+        "Drive": 0,
+        "Level": 45,
+        "Sync": 0,
+        "Trail": 1
+      }
+    },
+    "RVB": {
+      "active": true,
+      "algorithm": "Shimmer",
+      "parameters": {
+        "Mix": 38,
+        "Pre Delay": 25,
+        "Decay": 70,
+        "Lo End": 5,
+        "Hi End": -8,
+        "Trail": 1
+      }
+    },
+    "VOL": {
+      "active": true,
+      "algorithm": "Volume",
+      "parameters": {
+        "Volume": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/gp200-tone-desired-state.schema.json",
+  "title": "GP-200 Tone Desired State",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "name", "source", "output", "routing", "modules"],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1,
+      "description": "Schema version for this desired-state format."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16,
+      "pattern": "^[\\x20-\\x7E]+$",
+      "description": "ASCII GP-200 patch name. The GP-200 single patch format stores 16 bytes."
+    },
+    "description": {
+      "type": "string",
+      "description": "Human-readable tone intent, such as 'bowed string pad with slow attack'."
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prst"],
+      "properties": {
+        "prst": {
+          "type": "string",
+          "description": "Source .prst export to clone and modify."
+        },
+        "expectedSha256": {
+          "type": "string",
+          "pattern": "^[A-Fa-f0-9]{64}$",
+          "description": "Optional guardrail to ensure the expected source export is used."
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prst"],
+      "properties": {
+        "prst": {
+          "type": "string",
+          "description": "Output .prst path. Use tones/<PATCH NAME>.prst by default."
+        },
+        "trace": {
+          "type": "string",
+          "description": "Optional trace JSON path. Default is output .prst with .trace.json extension."
+        },
+        "summary": {
+          "type": "string",
+          "description": "Optional Markdown summary path."
+        }
+      }
+    },
+    "routing": {
+      "type": "string",
+      "enum": ["FRFR", "headphones", "interface", "amp front", "amp return", "4CM"],
+      "description": "Output routing assumption. Drives amp/cab defaults and safety checks."
+    },
+    "savePolicy": {
+      "type": "string",
+      "enum": ["named-variant", "overwrite-target-after-confirmation"],
+      "default": "named-variant",
+      "description": "Named variants are the safe default."
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Optional tags such as ambient, strings, clean, lead, high-gain."
+    },
+    "modules": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["PRE", "WAH", "DST", "AMP", "NR", "CAB", "EQ", "MOD", "DLY", "RVB", "VOL"],
+      "properties": {
+        "PRE": { "$ref": "#/$defs/moduleState" },
+        "WAH": { "$ref": "#/$defs/moduleState" },
+        "DST": { "$ref": "#/$defs/moduleState" },
+        "AMP": { "$ref": "#/$defs/moduleState" },
+        "NR": { "$ref": "#/$defs/moduleState" },
+        "CAB": { "$ref": "#/$defs/moduleState" },
+        "EQ": { "$ref": "#/$defs/moduleState" },
+        "MOD": { "$ref": "#/$defs/moduleState" },
+        "DLY": { "$ref": "#/$defs/moduleState" },
+        "RVB": { "$ref": "#/$defs/moduleState" },
+        "VOL": { "$ref": "#/$defs/moduleState" }
+      }
+    }
+  },
+  "$defs": {
+    "moduleState": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["active", "algorithm", "parameters"],
+      "properties": {
+        "active": {
+          "type": "boolean",
+          "description": "Whether the module is enabled in the GP-200 patch."
+        },
+        "algorithm": {
+          "type": "string",
+          "description": "Algorithm/model name exactly as shown in algorithm.xml for this module."
+        },
+        "parameters": {
+          "type": "object",
+          "additionalProperties": {
+            "oneOf": [
+              { "type": "number" },
+              { "type": "integer" },
+              { "type": "boolean" },
+              { "type": "string" }
+            ]
+          },
+          "description": "Parameter map keyed by exact algorithm.xml parameter names. Values are numeric settings or menu IDs unless generator code maps labels."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional explanation of why this module is configured this way."
+        }
+      }
+    }
+  }
+}

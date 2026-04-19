@@ -1,0 +1,1113 @@
+﻿{
+    "generatedAt":  "2026-04-18T15:46:56.3490894-07:00",
+    "command":  "generate-strings",
+    "sourcePath":  "C:\\Users\\shawn\\Web Development\\music\\42-A It\u0027s GP-200.prst",
+    "sourceSha256":  "F4FFF4C28B0103B91873BD895360CCC444A8A10BBDCBE86E47F1F29D6C7C4F5B",
+    "outputPath":  "C:\\Users\\shawn\\Web Development\\music\\output\\gp200\\42-A\\AI STRINGS 42A.prst",
+    "outputSha256":  "8702C903021F8A5FA23FFCF438ADAC5C1AE2CF382601C7E8C46FA8C6AD29D55F",
+    "patchName":  "AI STRINGS 42A",
+    "savePolicy":  "named-variant",
+    "intent":  "Bow-like guitar string pad: slow attack, octave layering, detune ensemble spread, tape delay, and shimmer reverb.",
+    "plan":  [
+                 {
+                     "active":  true,
+                     "key":  "PRE::Pitch",
+                     "values":  {
+                                    "Hi Vol":  42,
+                                    "Hi Pitch":  12,
+                                    "Low Pitch":  -12,
+                                    "Low Vol":  28,
+                                    "Dry":  35
+                                },
+                     "slot":  0
+                 },
+                 {
+                     "active":  false,
+                     "key":  "WAH::V-Wah",
+                     "values":  {
+
+                                },
+                     "slot":  1
+                 },
+                 {
+                     "active":  false,
+                     "key":  "DST::Green OD",
+                     "values":  {
+
+                                },
+                     "slot":  2
+                 },
+                 {
+                     "active":  true,
+                     "key":  "AMP::Silver Twin",
+                     "values":  {
+                                    "Bass":  45,
+                                    "Volume":  48,
+                                    "Treble":  32,
+                                    "Middle":  58,
+                                    "Gain":  18
+                                },
+                     "slot":  3
+                 },
+                 {
+                     "active":  true,
+                     "key":  "NR::Auto Swell",
+                     "values":  {
+                                    "Attack":  1350,
+                                    "Curve":  1
+                                },
+                     "slot":  4
+                 },
+                 {
+                     "active":  true,
+                     "key":  "CAB::DARK LUX",
+                     "values":  {
+                                    "Volume":  50,
+                                    "High Cut":  5200,
+                                    "Low Cut":  120
+                                },
+                     "slot":  5
+                 },
+                 {
+                     "active":  true,
+                     "key":  "EQ::Guitar EQ 1",
+                     "values":  {
+                                    "1.6kHz":  1,
+                                    "125Hz":  -3,
+                                    "Volume":  50,
+                                    "4kHz":  -4,
+                                    "800Hz":  2,
+                                    "400Hz":  1
+                                },
+                     "slot":  6
+                 },
+                 {
+                     "active":  true,
+                     "key":  "MOD::Detune",
+                     "values":  {
+                                    "Detune":  -9,
+                                    "Dry":  65,
+                                    "Wet":  45
+                                },
+                     "slot":  7
+                 },
+                 {
+                     "active":  true,
+                     "key":  "DLY::Tape Delay S",
+                     "values":  {
+                                    "Spread":  100,
+                                    "Mix":  18,
+                                    "Sync":  0,
+                                    "Time R%":  61.8,
+                                    "Level":  45,
+                                    "Time":  720,
+                                    "Scrape":  20,
+                                    "Wow \u0026":  25,
+                                    "Drive":  0,
+                                    "Feedback":  28,
+                                    "Age":  1,
+                                    "Trail":  1
+                                },
+                     "slot":  8
+                 },
+                 {
+                     "active":  true,
+                     "key":  "RVB::Shimmer",
+                     "values":  {
+                                    "Mix":  38,
+                                    "Lo End":  5,
+                                    "Decay":  70,
+                                    "Trail":  1,
+                                    "Pre Delay":  25,
+                                    "Hi End":  -8
+                                },
+                     "slot":  9
+                 },
+                 {
+                     "active":  true,
+                     "key":  "VOL::Volume",
+                     "values":  {
+                                    "Volume":  100
+                                },
+                     "slot":  10
+                 }
+             ],
+    "inspection":  {
+                       "path":  "C:\\Users\\shawn\\Web Development\\music\\output\\gp200\\42-A\\AI STRINGS 42A.prst",
+                       "size":  1224,
+                       "sha256":  "8702C903021F8A5FA23FFCF438ADAC5C1AE2CF382601C7E8C46FA8C6AD29D55F",
+                       "magic":  "TSRP",
+                       "patchName":  "AI STRINGS 42A",
+                       "checksum":  "4C94",
+                       "slots":  [
+                                     {
+                                         "slot":  0,
+                                         "expectedModule":  "PRE",
+                                         "offset":  168,
+                                         "code":  16777251,
+                                         "active":  true,
+                                         "module":  "PRE",
+                                         "algorithm":  "Pitch",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Hi Pitch",
+                                                            "value":  12
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Low Pitch",
+                                                            "value":  -12
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "Dry",
+                                                            "value":  35
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  "Hi Vol",
+                                                            "value":  42
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  "Low Vol",
+                                                            "value":  28
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 00 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 01 00 0F 00"
+                                     },
+                                     {
+                                         "slot":  1,
+                                         "expectedModule":  "WAH",
+                                         "offset":  240,
+                                         "code":  83886081,
+                                         "active":  false,
+                                         "module":  "WAH",
+                                         "algorithm":  "V-Wah",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Range",
+                                                            "value":  50
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Q",
+                                                            "value":  50
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "Volume",
+                                                            "value":  50
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  "Position",
+                                                            "value":  50
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 01 00 0F 00",
+                                         "trailerHex":  "14 00 44 00 02 00 0F 00"
+                                     },
+                                     {
+                                         "slot":  2,
+                                         "expectedModule":  "DST",
+                                         "offset":  312,
+                                         "code":  50331648,
+                                         "active":  false,
+                                         "module":  "DST",
+                                         "algorithm":  "Green OD",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Gain",
+                                                            "value":  40
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Tone",
+                                                            "value":  70
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "Volume",
+                                                            "value":  50
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 02 00 0F 00",
+                                         "trailerHex":  "14 00 44 00 03 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  3,
+                                         "expectedModule":  "AMP",
+                                         "offset":  384,
+                                         "code":  117440525,
+                                         "active":  true,
+                                         "module":  "AMP",
+                                         "algorithm":  "Silver Twin",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Gain",
+                                                            "value":  18
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Volume",
+                                                            "value":  48
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "Bass",
+                                                            "value":  45
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  "Middle",
+                                                            "value":  58
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  "Treble",
+                                                            "value":  32
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 03 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 04 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  4,
+                                         "expectedModule":  "NR",
+                                         "offset":  456,
+                                         "code":  67108909,
+                                         "active":  true,
+                                         "module":  "NR",
+                                         "algorithm":  "Auto Swell",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Attack",
+                                                            "value":  1350
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Curve",
+                                                            "value":  1
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 04 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 05 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  5,
+                                         "expectedModule":  "CAB",
+                                         "offset":  528,
+                                         "code":  167772163,
+                                         "active":  true,
+                                         "module":  "CAB",
+                                         "algorithm":  "DARK LUX",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Volume",
+                                                            "value":  50
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Low Cut",
+                                                            "value":  120
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "High Cut",
+                                                            "value":  5200
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 05 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 06 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  6,
+                                         "expectedModule":  "EQ",
+                                         "offset":  600,
+                                         "code":  16777269,
+                                         "active":  true,
+                                         "module":  "EQ",
+                                         "algorithm":  "Guitar EQ 1",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "125Hz",
+                                                            "value":  -3
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "400Hz",
+                                                            "value":  1
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "800Hz",
+                                                            "value":  2
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  "1.6kHz",
+                                                            "value":  1
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  "4kHz",
+                                                            "value":  -4
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  "Volume",
+                                                            "value":  50
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 06 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 07 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  7,
+                                         "expectedModule":  "MOD",
+                                         "offset":  672,
+                                         "code":  16777257,
+                                         "active":  true,
+                                         "module":  "MOD",
+                                         "algorithm":  "Detune",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Detune",
+                                                            "value":  -9
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Wet",
+                                                            "value":  45
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "Dry",
+                                                            "value":  65
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 07 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 08 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  8,
+                                         "expectedModule":  "DLY",
+                                         "offset":  744,
+                                         "code":  184549409,
+                                         "active":  true,
+                                         "module":  "DLY",
+                                         "algorithm":  "Tape Delay S",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Mix",
+                                                            "value":  18
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Time",
+                                                            "value":  720
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "Feedback",
+                                                            "value":  28
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  "Time R%",
+                                                            "value":  61.8
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  "Spread",
+                                                            "value":  100
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  "Wow \u0026",
+                                                            "value":  25
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  "Age",
+                                                            "value":  1
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  "Scrape",
+                                                            "value":  20
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  "Drive",
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  "Level",
+                                                            "value":  45
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  "Sync",
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  "Trail",
+                                                            "value":  1
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 08 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 09 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  9,
+                                         "expectedModule":  "RVB",
+                                         "offset":  816,
+                                         "code":  201326601,
+                                         "active":  true,
+                                         "module":  "RVB",
+                                         "algorithm":  "Shimmer",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Mix",
+                                                            "value":  38
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  "Pre Delay",
+                                                            "value":  25
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  "Decay",
+                                                            "value":  70
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  "Lo End",
+                                                            "value":  5
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  "Hi End",
+                                                            "value":  -8
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  "Trail",
+                                                            "value":  1
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 09 01 0F 00",
+                                         "trailerHex":  "14 00 44 00 0A 01 0F 00"
+                                     },
+                                     {
+                                         "slot":  10,
+                                         "expectedModule":  "VOL",
+                                         "offset":  888,
+                                         "code":  100663299,
+                                         "active":  true,
+                                         "module":  "VOL",
+                                         "algorithm":  "Volume",
+                                         "params":  [
+                                                        {
+                                                            "index":  0,
+                                                            "name":  "Volume",
+                                                            "value":  100
+                                                        },
+                                                        {
+                                                            "index":  1,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  2,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  3,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  4,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  5,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  6,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  7,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  8,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  9,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  10,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  11,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  12,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  13,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        },
+                                                        {
+                                                            "index":  14,
+                                                            "name":  null,
+                                                            "value":  0
+                                                        }
+                                                    ],
+                                         "headerHex":  "14 00 44 00 0A 01 0F 00",
+                                         "trailerHex":  "0C 00 0C 00 00 0A 00 00"
+                                     }
+                                 ]
+                   }
+}
