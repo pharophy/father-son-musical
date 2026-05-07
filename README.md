@@ -43,10 +43,21 @@ Example overlay project:
 
 The repo can create and document GP-200 preset tones, including generated preset files, trace artifacts, and summaries for later refinement or import.
 
+It also applies infrastructure-as-code style discipline to tone design. Instead of treating the proprietary `.prst` file as the only source of truth, the workflow supports a readable desired-state JSON representation that can be versioned, diffed, reviewed, generated, and reapplied.
+
+That enables two useful directions:
+
+- define a target tone in JSON and compile or apply it into an importable GP-200 preset
+- export an existing preset into structured JSON state instead of relying only on the opaque `.prst` format
+
+In practice, that means the tone-design workflow becomes more auditable and repeatable: a musician can describe the target state, revise it over time, compare changes in Git, and regenerate a hardware-ready preset from the same declarative source.
+
 Examples:
 
 - [FATHER BYN preset summary](tones/FATHER%20BYN.summary.md)
+- [FATHER BYN desired state JSON](tones/FATHER%20BYN.desired-state.json)
 - [LULLABY BYN preset summary](tones/LULLABY%20BYN.summary.md)
+- [LULLABY BYN desired state JSON](tones/LULLABY%20BYN.desired-state.json)
 - [GP-200 automation scripts](scripts/gp200/README.md)
 
 ### 4. Preserve the full creative paper trail
@@ -59,6 +70,7 @@ This repo is not just for final outputs. It stores briefs, revisions, spec chang
 
 - [The Time is Now](music/again/The%20Time%20is%20Now.mp3)
 - [Before Your Name sung demo](music/before-your-name/before-your-name-eleven-music.mp3)
+- [Before Your Name final song](https://drive.google.com/file/d/1GqSItyq8TA5TP_okDlBEbutrfo9WWZDx/view?usp=drive_link)
 
 ### Vocal-only or guide renders
 
