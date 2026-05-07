@@ -1,0 +1,3 @@
+display_name: Musical Song Production
+short_description: Write songs, vocal overlays, and MIDI sketches.
+default_prompt: "Create or revise a father-son musical song, or add a fitted vocal overlay to an existing backing track:"

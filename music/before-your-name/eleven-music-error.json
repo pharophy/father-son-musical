@@ -1,0 +1,11 @@
+{
+  "provider": "ElevenLabs Music API",
+  "endpoint": "/v1/music",
+  "targetOutput": "music/before-your-name/before-your-name-eleven-music.mp3",
+  "status": "failed",
+  "httpStatus": 402,
+  "code": "paid_plan_required",
+  "message": "Music API is not available for free users. Please upgrade to a paid plan to use the API.",
+  "latestRequestId": "14a90f8c951ff251072df788e34aa49d",
+  "nextStep": "Confirm the root .env key belongs to the paid Music API account, then run the same generation command again."
+}

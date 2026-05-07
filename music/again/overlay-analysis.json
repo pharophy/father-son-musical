@@ -1,0 +1,18 @@
+{
+  "format": "mp3",
+  "sampleRate": null,
+  "channels": null,
+  "sampleWidthBytes": null,
+  "frameCount": null,
+  "durationSeconds": 351.0,
+  "windows": [],
+  "songSlug": "again",
+  "title": "The Time is Now",
+  "sourceAudioPath": "C:/Users/shawn/Web Development/music/music/again/The Time is Now_no_lead.mp3",
+  "tempoBpm": null,
+  "tempoConfidence": 0.0,
+  "generatedAt": "2026-05-03T00:19:52.973592+00:00",
+  "analysisMode": "metadata-only",
+  "manualReviewRequired": false,
+  "sourceAuthorized": true
+}

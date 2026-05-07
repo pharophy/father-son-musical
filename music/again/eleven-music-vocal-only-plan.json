@@ -1,0 +1,113 @@
+{
+  "positive_global_styles": [
+    "a cappella male vocal",
+    "solo lead vocal only",
+    "dry vocal stem for DAW import",
+    "musical theatre singing",
+    "clear sung melody",
+    "forward-driving phrasing",
+    "129 BPM phrasing",
+    "4/4 time signature phrasing",
+    "D major melodic center",
+    "no instruments"
+  ],
+  "negative_global_styles": [
+    "guitar",
+    "piano",
+    "drums",
+    "bass",
+    "strings",
+    "synth",
+    "instrumental accompaniment",
+    "backing track",
+    "backing vocals",
+    "spoken word",
+    "rap",
+    "opera",
+    "heavy reverb"
+  ],
+  "sections": [
+    {
+      "section_name": "Lead In",
+      "positive_local_styles": [
+        "silence before vocal entrance",
+        "no singing yet",
+        "leave space for the track intro"
+      ],
+      "negative_local_styles": [
+        "instruments",
+        "humming",
+        "spoken count-in"
+      ],
+      "duration_ms": 44000,
+      "lines": []
+    },
+    {
+      "section_name": "Chorus Overlay",
+      "positive_local_styles": [
+        "solo male vocal only",
+        "confident sung hook",
+        "clear pitch center in D major",
+        "driving but controlled phrasing",
+        "match a modern pop-rock chorus energy without instruments"
+      ],
+      "negative_local_styles": [
+        "spoken delivery",
+        "backing vocals",
+        "instrumental fill"
+      ],
+      "duration_ms": 28000,
+      "lines": [
+        "No more circling the door we know by heart",
+        "This is where the waiting comes apart",
+        "Every borrowed maybe falls away",
+        "If we're going, let it start today"
+      ]
+    },
+    {
+      "section_name": "Tail Out A",
+      "positive_local_styles": [
+        "silence after the sung passage",
+        "no extra ad libs",
+        "end clean for DAW alignment"
+      ],
+      "negative_local_styles": [
+        "spoken outro",
+        "instrumental backing",
+        "extra vocal riffs"
+      ],
+      "duration_ms": 120000,
+      "lines": []
+    },
+    {
+      "section_name": "Tail Out B",
+      "positive_local_styles": [
+        "continued silence after the sung passage",
+        "no extra ad libs",
+        "preserve the long backing track tail"
+      ],
+      "negative_local_styles": [
+        "spoken outro",
+        "instrumental backing",
+        "extra vocal riffs"
+      ],
+      "duration_ms": 120000,
+      "lines": []
+    },
+    {
+      "section_name": "Tail Out C",
+      "positive_local_styles": [
+        "final silence after the sung passage",
+        "no extra ad libs",
+        "clean tail for DAW alignment"
+      ],
+      "negative_local_styles": [
+        "spoken outro",
+        "instrumental backing",
+        "extra vocal riffs"
+      ],
+      "duration_ms": 39141,
+      "lines": []
+    }
+  ]
+}

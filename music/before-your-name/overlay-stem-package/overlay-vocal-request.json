@@ -1,0 +1,48 @@
+{
+  "songSlug": "before-your-name",
+  "title": "Before Your Name",
+  "provider": "ElevenLabs",
+  "sourceAudioPath": "C:/Users/shawn/Web Development/music/music/before-your-name/before your name/Audio/before your name, Track 13, Rec (120).wav",
+  "sourceAuthorized": true,
+  "voiceName": "Authorized voice pending selection",
+  "voiceAuthorized": false,
+  "networkApproved": false,
+  "apiKeyEnvVar": "ELEVENLABS_API_KEY",
+  "selectedRegion": {
+    "id": "candidate-1",
+    "startSeconds": 15.726,
+    "endSeconds": 39.726,
+    "startTimestamp": "00:16",
+    "endTimestamp": "00:40",
+    "estimatedBars": 8,
+    "phraseCount": 4,
+    "syllableBudget": {
+      "min": 36,
+      "max": 52
+    },
+    "confidence": 0.251,
+    "rationale": "Auto-selected from the stable middle portion of the track to avoid the intro/outro and give the lyric room for a complete phrase."
+  },
+  "timingConfidence": 0.251,
+  "timingConfidenceThreshold": 0.35,
+  "voiceRole": "Father lead overlay",
+  "dramaticIntent": "Let the father admit that love arrives before language does.",
+  "lyricTheme": "The room preparing itself for a child who is not here yet.",
+  "lyricPlan": {
+    "phraseCount": 4,
+    "phraseBudgetMin": 9,
+    "phraseBudgetMax": 13,
+    "regionDurationSeconds": 24.0
+  },
+  "readyForProviderCall": false,
+  "blockingReasons": [
+    "Timing confidence 0.251 is below the configured threshold of 0.350.",
+    "Voice authorization has not been confirmed.",
+    "Network approval for a live provider call has not been confirmed."
+  ],
+  "outputTargets": {
+    "vocalOnly": "music/before-your-name/before-your-name-overlay-vocal-only.mp3",
+    "metadata": "music/before-your-name/overlay-vocal-generation.json"
+  },
+  "generatedAt": "2026-05-02T20:49:38.469946+00:00"
+}

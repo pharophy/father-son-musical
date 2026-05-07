@@ -1,0 +1,12 @@
+{
+  "songSlug": "again",
+  "packageType": "overlay-stem-package",
+  "sourceAudio": "The Time is Now_no_lead.mp3",
+  "vocalStem": "again-overlay-vocal-only.mp3",
+  "regionMap": "overlay-region-map.json",
+  "requestManifest": "overlay-vocal-request.json",
+  "integrationNotes": "overlay-integration-notes.md",
+  "vocalDemo": "overlay-vocal-demo.md",
+  "complete": true,
+  "vocalStemAvailable": true
+}

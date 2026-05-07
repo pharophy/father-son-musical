@@ -1,0 +1,12 @@
+{
+  "songSlug": "before-your-name",
+  "packageType": "overlay-stem-package",
+  "sourceAudio": "before your name, Track 13, Rec (120).wav",
+  "vocalStem": null,
+  "regionMap": "overlay-region-map.json",
+  "requestManifest": "overlay-vocal-request.json",
+  "integrationNotes": "overlay-integration-notes.md",
+  "vocalDemo": "overlay-vocal-demo.md",
+  "complete": true,
+  "vocalStemAvailable": false
+}

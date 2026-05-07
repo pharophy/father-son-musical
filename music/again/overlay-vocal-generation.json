@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-05-03T00:23:03.935828+00:00",
+  "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+  "textFile": "C:\\Users\\shawn\\Web Development\\music\\music\\again\\elevenlabs-vocal-text.txt",
+  "outputPath": "C:\\Users\\shawn\\Web Development\\music\\music\\again\\again-overlay-vocal-only.mp3",
+  "outputFormat": "mp3_44100_128",
+  "modelId": "eleven_multilingual_v2",
+  "overlay": {
+    "songSlug": "again",
+    "title": "The Time is Now",
+    "sourceAudioPath": "C:/Users/shawn/Web Development/music/music/again/The Time is Now_no_lead.mp3",
+    "selectedRegion": {
+      "id": "user-target",
+      "startSeconds": 44.0,
+      "endSeconds": 72.0,
+      "startTimestamp": "00:44",
+      "endTimestamp": "01:12",
+      "estimatedBars": null,
+      "phraseCount": 4,
+      "syllableBudget": {
+        "min": 34,
+        "max": 46
+      },
+      "confidence": 0.65,
+      "rationale": "Prioritized because the user supplied the target timestamp range directly."
+    },
+    "timingConfidence": 0.65,
+    "voiceName": "George - Warm, Captivating Storyteller"
+  }
+}

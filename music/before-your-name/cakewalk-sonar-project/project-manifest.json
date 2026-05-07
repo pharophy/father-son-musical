@@ -1,0 +1,63 @@
+{
+  "songSlug": "before-your-name",
+  "tempoBpm": 100,
+  "meter": "4/4",
+  "nativeProjectFileCreated": false,
+  "nativeProjectLimitation": "Cakewalk/Sonar .cwp files are proprietary; this is an import-ready bundle.",
+  "tracks": [
+    {
+      "name": "Lead Vocal",
+      "type": "audio",
+      "source": "{slug}-vocal-only.mp3",
+      "folder": "Audio",
+      "recommendedOutput": "Audio track",
+      "notes": "Import at bar 1 beat 1. Keep this isolated for mixing.",
+      "bundlePath": "Audio/before-your-name-vocal-only.mp3"
+    },
+    {
+      "name": "Bass",
+      "type": "midi",
+      "source": "{slug}-bass.mid",
+      "folder": "MIDI",
+      "recommendedOutput": "SI-Bass Guitar or TTS-1 bass",
+      "notes": "No guitar backing; bass is permitted.",
+      "bundlePath": "MIDI/before-your-name-bass.mid"
+    },
+    {
+      "name": "Drums",
+      "type": "midi",
+      "source": "{slug}-drums.mid",
+      "folder": "MIDI",
+      "recommendedOutput": "SI-Drum Kit, Session Drummer, or TTS-1 drums",
+      "notes": "Use MIDI channel 10 if your drum synth expects General MIDI drums.",
+      "bundlePath": "MIDI/before-your-name-drums.mid"
+    },
+    {
+      "name": "Piano",
+      "type": "midi",
+      "source": "{slug}-piano.mid",
+      "folder": "MIDI",
+      "recommendedOutput": "SI-Electric Piano, TTS-1 piano, or piano VST",
+      "notes": "Sparse chord bed.",
+      "bundlePath": "MIDI/before-your-name-piano.mid"
+    },
+    {
+      "name": "Pad",
+      "type": "midi",
+      "source": "{slug}-pad.mid",
+      "folder": "MIDI",
+      "recommendedOutput": "TTS-1 pad/string patch or pad synth",
+      "notes": "Warm support pad.",
+      "bundlePath": "MIDI/before-your-name-pad.mid"
+    },
+    {
+      "name": "Celeste",
+      "type": "midi",
+      "source": "{slug}-celeste.mid",
+      "folder": "MIDI",
+      "recommendedOutput": "TTS-1 celesta/glockenspiel-style patch",
+      "notes": "Optional nursery-light color.",
+      "bundlePath": "MIDI/before-your-name-celeste.mid"
+    }
+  ]
+}

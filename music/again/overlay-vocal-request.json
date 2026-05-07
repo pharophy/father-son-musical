@@ -1,0 +1,44 @@
+{
+  "songSlug": "again",
+  "title": "The Time is Now",
+  "provider": "ElevenLabs",
+  "sourceAudioPath": "C:/Users/shawn/Web Development/music/music/again/The Time is Now_no_lead.mp3",
+  "sourceAuthorized": true,
+  "voiceName": "George - Warm, Captivating Storyteller",
+  "voiceAuthorized": true,
+  "networkApproved": true,
+  "apiKeyEnvVar": "ELEVENLABS_API_KEY",
+  "selectedRegion": {
+    "id": "user-target",
+    "startSeconds": 44.0,
+    "endSeconds": 72.0,
+    "startTimestamp": "00:44",
+    "endTimestamp": "01:12",
+    "estimatedBars": null,
+    "phraseCount": 4,
+    "syllableBudget": {
+      "min": 34,
+      "max": 46
+    },
+    "confidence": 0.65,
+    "rationale": "Prioritized because the user supplied the target timestamp range directly."
+  },
+  "timingConfidence": 0.65,
+  "timingConfidenceThreshold": 0.35,
+  "voiceRole": "Lead vocal",
+  "dramaticIntent": "Turn tension into commitment and make the section feel like a point of no return.",
+  "lyricTheme": "A decision that cannot stay postponed.",
+  "lyricPlan": {
+    "phraseCount": 4,
+    "phraseBudgetMin": 8,
+    "phraseBudgetMax": 12,
+    "regionDurationSeconds": 28.0
+  },
+  "readyForProviderCall": true,
+  "blockingReasons": [],
+  "outputTargets": {
+    "vocalOnly": "music/again/again-overlay-vocal-only.mp3",
+    "metadata": "music/again/overlay-vocal-generation.json"
+  },
+  "generatedAt": "2026-05-03T00:20:07.430260+00:00"
+}

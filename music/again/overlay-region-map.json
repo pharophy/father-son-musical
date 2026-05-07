@@ -1,0 +1,26 @@
+{
+  "songSlug": "again",
+  "title": "The Time is Now",
+  "sourceAudioPath": "C:/Users/shawn/Web Development/music/music/again/The Time is Now_no_lead.mp3",
+  "generatedAt": "2026-05-03T00:19:52.973592+00:00",
+  "tempoBpm": null,
+  "tempoConfidence": 0.0,
+  "manualReviewRequired": false,
+  "candidateRegions": [
+    {
+      "id": "user-target",
+      "startSeconds": 44.0,
+      "endSeconds": 72.0,
+      "startTimestamp": "00:44",
+      "endTimestamp": "01:12",
+      "estimatedBars": null,
+      "phraseCount": 4,
+      "syllableBudget": {
+        "min": 34,
+        "max": 46
+      },
+      "confidence": 0.65,
+      "rationale": "Prioritized because the user supplied the target timestamp range directly."
+    }
+  ]
+}

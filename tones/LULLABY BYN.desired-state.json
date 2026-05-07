@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "name": "LULLABY BYN",
+  "description": "Lullaby-heavy guitar voice for Before Your Name: soft fingerpicked articulation, clean bedtime warmth, gentle chorus width, dark tape repeats, and a tender hall bloom that leaves space for the vocal.",
+  "source": {
+    "prst": "tones/42-A It's GP-200.example.prst",
+    "expectedSha256": "F4FFF4C28B0103B91873BD895360CCC444A8A10BBDCBE86E47F1F29D6C7C4F5B"
+  },
+  "output": {
+    "prst": "tones/LULLABY BYN.prst",
+    "trace": "tones/LULLABY BYN.trace.json",
+    "summary": "tones/LULLABY BYN.summary.md"
+  },
+  "routing": "headphones",
+  "savePolicy": "named-variant",
+  "tags": ["clean", "lullaby", "fingerpicked", "before-your-name", "theatre"],
+  "modules": {
+    "PRE": {
+      "active": true,
+      "algorithm": "S-Comp",
+      "parameters": {
+        "Threshold": 22,
+        "Ratio": 24,
+        "Volume": 54,
+        "Attack": 52,
+        "Release": 52,
+        "Tone": 36,
+        "Blend": 62
+      }
+    },
+    "WAH": {
+      "active": false,
+      "algorithm": "V-Wah",
+      "parameters": {}
+    },
+    "DST": {
+      "active": false,
+      "algorithm": "Green OD",
+      "parameters": {}
+    },
+    "AMP": {
+      "active": true,
+      "algorithm": "Silver Twin",
+      "parameters": {
+        "Gain": 16,
+        "Volume": 52,
+        "Bass": 46,
+        "Middle": 57,
+        "Treble": 28
+      }
+    },
+    "NR": {
+      "active": false,
+      "algorithm": "Gate 1",
+      "parameters": {}
+    },
+    "CAB": {
+      "active": true,
+      "algorithm": "DARK LUX",
+      "parameters": {
+        "Volume": 50,
+        "Low Cut": 85,
+        "High Cut": 5200
+      }
+    },
+    "EQ": {
+      "active": true,
+      "algorithm": "Guitar EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 2,
+        "800Hz": 3,
+        "1.6kHz": 1,
+        "4kHz": -8,
+        "Volume": 50
+      }
+    },
+    "MOD": {
+      "active": true,
+      "algorithm": "G-Chorus",
+      "parameters": {
+        "Depth": 32,
+        "Rate": 0.45,
+        "Volume": 44,
+        "Sync": 0
+      }
+    },
+    "DLY": {
+      "active": true,
+      "algorithm": "Tape Delay S",
+      "parameters": {
+        "Mix": 14,
+        "Time": 420,
+        "Feedback": 18,
+        "Time R%": 61.8,
+        "Spread": 62,
+        "Wow &": 16,
+        "Age": 1,
+        "Scrape": 10,
+        "Drive": 0,
+        "Level": 42,
+        "Sync": 0,
+        "Trail": 1
+      }
+    },
+    "RVB": {
+      "active": true,
+      "algorithm": "Hall",
+      "parameters": {
+        "Mix": 30,
+        "Pre Delay": 18,
+        "Decay": 58,
+        "Trail": 1
+      }
+    },
+    "VOL": {
+      "active": true,
+      "algorithm": "Volume",
+      "parameters": {
+        "Volume": 100
+      }
+    }
+  }
+}

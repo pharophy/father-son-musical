@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "name": "FATHER BYN",
+  "description": "Warm, intimate father guitar voice for Before Your Name: restrained fingerpicking, mature clean authority, light breakup, softened treble, brief tape echo, and room-like ambience with space for unanswered rests.",
+  "source": {
+    "prst": "tones/42-A It's GP-200.example.prst",
+    "expectedSha256": "F4FFF4C28B0103B91873BD895360CCC444A8A10BBDCBE86E47F1F29D6C7C4F5B"
+  },
+  "output": {
+    "prst": "tones/FATHER BYN.prst",
+    "trace": "tones/FATHER BYN.trace.json",
+    "summary": "tones/FATHER BYN.summary.md"
+  },
+  "routing": "headphones",
+  "savePolicy": "named-variant",
+    "tags": ["edge-of-breakup", "fingerpicked", "theatre", "father", "before-your-name"],
+  "modules": {
+    "PRE": {
+      "active": true,
+      "algorithm": "S-Comp",
+      "parameters": {
+        "Threshold": 24,
+        "Ratio": 28,
+        "Volume": 53,
+        "Attack": 65,
+        "Release": 45,
+        "Tone": 42,
+        "Blend": 55
+      }
+    },
+    "WAH": {
+      "active": false,
+      "algorithm": "V-Wah",
+      "parameters": {}
+    },
+    "DST": {
+      "active": true,
+      "algorithm": "Green OD",
+      "parameters": {
+        "Gain": 18,
+        "Tone": 42,
+        "Volume": 48
+      }
+    },
+    "AMP": {
+      "active": true,
+      "algorithm": "Silver Twin",
+      "parameters": {
+        "Gain": 24,
+        "Volume": 50,
+        "Bass": 44,
+        "Middle": 60,
+        "Treble": 34
+      }
+    },
+    "NR": {
+      "active": false,
+      "algorithm": "Gate 1",
+      "parameters": {}
+    },
+    "CAB": {
+      "active": true,
+      "algorithm": "DARK LUX",
+      "parameters": {
+        "Volume": 50,
+        "Low Cut": 95,
+        "High Cut": 6400
+      }
+    },
+    "EQ": {
+      "active": true,
+      "algorithm": "Guitar EQ 1",
+      "parameters": {
+        "125Hz": -2,
+        "400Hz": 3,
+        "800Hz": 2,
+        "1.6kHz": 2,
+        "4kHz": -6,
+        "Volume": 50
+      }
+    },
+    "MOD": {
+      "active": false,
+      "algorithm": "G-Chorus",
+      "parameters": {}
+    },
+    "DLY": {
+      "active": true,
+      "algorithm": "Tape Delay S",
+      "parameters": {
+        "Mix": 10,
+        "Time": 300,
+        "Feedback": 13,
+        "Time R%": 61.8,
+        "Spread": 58,
+        "Wow &": 8,
+        "Age": 1,
+        "Scrape": 6,
+        "Drive": 0,
+        "Level": 42,
+        "Sync": 0,
+        "Trail": 1
+      }
+    },
+    "RVB": {
+      "active": true,
+      "algorithm": "Room",
+      "parameters": {
+        "Mix": 24,
+        "Pre Delay": 22,
+        "Decay": 46,
+        "Trail": 1
+      }
+    },
+    "VOL": {
+      "active": true,
+      "algorithm": "Volume",
+      "parameters": {
+        "Volume": 100
+      }
+    }
+  }
+}
